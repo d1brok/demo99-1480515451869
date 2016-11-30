@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: demo99
+  host: demo99
+  disk_quota: 1024M
+  services:
+  - demo99-personality_insights
+  - availability-monitoring-auto
+  - Cloudant NoSQL DB-ph
+  - Message Hub-7o
